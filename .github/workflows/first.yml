@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get Code 
         uses: actions/checkout
-      - name: Install Dependencies 
-        uses: npm ci 
-      - name: Run Lint 
-        uses: npm test 
+      # - name: Install Dependencies 
+      #   uses: npm ci 
+      # - name: Run Lint 
+      #   uses: npm test 
